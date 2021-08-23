@@ -2555,7 +2555,7 @@ body {
       height: 37px;
       background: #141414;
       position: absolute;
-      bottom: -15px;
+      bottom: -18px;
       right: -18px;
       -webkit-transform: rotate(45deg);
           -ms-transform: rotate(45deg);
@@ -2761,6 +2761,31 @@ body {
 
 .circular--square {
   border-radius: 50%;
+}
+
+div.sizing {
+    max-width: 25%;
+    max-height: 25%;
+    float: left;
+    
+}
+div.transbox {
+  margin: 0px;
+  /*background-color: teal;*/
+  border: 0px solid white;
+  opacity: 0.9;
+    /*border-radius: 50%;*/
+    float: left;
+    text-align: left;
+    
+}
+
+div.transbox p {
+  margin: 0%;
+  font-weight: bold;
+  color: #000000;
+    border-radius: 50%;
+    float: left;
 }
 
 /*# sourceMappingURL=style.css.map */
