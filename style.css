@@ -2540,6 +2540,49 @@ body {
       color: white;
       text-decoration: none; }
 
+
+.evento {
+  position: relative;
+  padding-left: 0px; }
+  /* line 195, sass/pages/_homepage.scss */
+  .event .entry-date {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    background: #fd5927;
+    background: -webkit-linear-gradient(90deg, #fd5927, #fd5927) top left, -webkit-linear-gradient(90deg, #fd5927, #fd5927) top right, -webkit-linear-gradient(135deg, transparent 10px, #fd5927 0) bottom right, -webkit-linear-gradient(90deg, #fd5927, #fd5927) bottom left;
+    background: linear-gradient(0deg, #fd5927, #fd5927) top left, linear-gradient(0deg, #fd5927, #fd5927) top right, linear-gradient(315deg, transparent 10px, #fd5927 0) bottom right, linear-gradient(0deg, #fd5927, #fd5927) bottom left;
+    background-size: 55% 55%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px;
+    text-align: center; }
+    /* line 211, sass/pages/_homepage.scss */
+    .event .entry-date .date {
+      font-size: 36px;
+      font-size: 2.25em;
+      font-weight: 900; }
+    /* line 215, sass/pages/_homepage.scss */
+    .event .entry-date .month {
+      font-size: 14px;
+      font-size: 0.875em;
+      text-transform: uppercase; }
+  /* line 220, sass/pages/_homepage.scss */
+  .event .entry-title {
+    margin-top: 0;
+    font-size: 16px;
+    font-size: 1em;
+    font-size: normal;
+    font-weight: 400; }
+    /* line 226, sass/pages/_homepage.scss */
+    .event .entry-title a {
+      color: white;
+      text-decoration: none; }
+
+
+
+
 /* line 234, sass/pages/_homepage.scss */
 .feature {
   text-align: center;
