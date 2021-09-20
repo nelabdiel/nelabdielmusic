@@ -2543,7 +2543,7 @@ body {
 
 .evento {
   position: relative;
-  padding-left: 0px; }
+  padding-left: 12px; }
   /* line 195, sass/pages/_homepage.scss */
   .event .entry-date {
     position: absolute;
