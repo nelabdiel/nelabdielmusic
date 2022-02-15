@@ -2482,6 +2482,9 @@ body {
 .event-carousel {
   margin-bottom: 70px; }
 
+.events-carousel {
+  margin-bottom: 70px; }
+
 /* line 173, sass/pages/_homepage.scss */
 .event-nav {
   float: right; }
